@@ -30,6 +30,9 @@
     padding: 0 20px;
   }
 
+
+/*header*/
+
   .nav-list {
     list-style: none;
     margin: 20px 90px;
@@ -39,6 +42,7 @@
     align-items: center;
   }
 
+
   .nav-link {
     padding: 0 30px;
     line-height: 50px;
@@ -47,7 +51,14 @@
     text-decoration: none;
     font-size: 16px;
     color: #fff;
+    transition: 0.3s;
   }
+  .nav-link:hover {
+    color: #bdae82;
+  }
+
+  
+/*main*/
 
   .hero {
     font-family: 'Merriweather';
